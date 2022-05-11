@@ -16,7 +16,7 @@ WebDriver driver;
 @FindBy(how=How.XPATH, using="//text()[.='Log Out']/ancestor::span[1]") WebElement logoutLink;
 @FindBy(how=How.XPATH, using="///div[text()='Good afternoon, SoftwareTesting!']") WebElement loggedInUserNameText;
         
-// Defining all the user actions (Methods) that can be performed in the Facebook home page
+// All the user actions (Methods) that can be performed in the Facebook home page
  
         // This method to click on Profile Dropdown
 public void clickOnProfileDropdown(){

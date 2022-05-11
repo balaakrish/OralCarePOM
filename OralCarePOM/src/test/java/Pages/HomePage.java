@@ -11,7 +11,7 @@ WebDriver driver;
         public HomePage(WebDriver driver){
                 this.driver=driver;
         }
-        //Using FindBy for locating elements
+//Using FindBy for locating elements
 @FindBy(how=How.XPATH, using="//div[text()='Account Settings']") WebElement profileDropdown;
 @FindBy(how=How.XPATH, using="//text()[.='Log Out']/ancestor::span[1]") WebElement logoutLink;
 @FindBy(how=How.XPATH, using="///div[text()='Good afternoon, SoftwareTesting!']") WebElement loggedInUserNameText;

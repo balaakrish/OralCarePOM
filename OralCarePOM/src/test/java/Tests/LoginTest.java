@@ -6,6 +6,9 @@ import org.testng.annotations.Test;
 import Pages.HomePage;
 import Pages.LoginPage;
  
+
+//samples
+
 public class LoginTest extends TestBase{
 @Test
 public void init() throws Exception{
